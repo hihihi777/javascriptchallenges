@@ -11,7 +11,7 @@ bgImage.src = `img/${chosenImage}`;
 document.body.appendChild(bgImage);
 
 function background() {
-    document.body.style.background = chosenImage;
+    document.body.style.background_img = chosenImage;
 }
 
 body.addEventListener("submit", background);
