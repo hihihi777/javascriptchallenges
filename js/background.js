@@ -15,3 +15,5 @@ function background() {
 }
 
 body.addEventListener("submit", background);
+
+bgImage.className = bgImage;
